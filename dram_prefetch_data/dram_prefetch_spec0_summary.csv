@@ -1,0 +1,7 @@
+reticle_num,local_sram_capacity_per_core_bytes,spec,use_dram_prefetch,source,joint_total_ms,ffn_service_total_ms,dram_stream_break_count,local_dram_bottleneck_ops,tpot_ms,full_model_total_ms,attention_total_ms,drafter_ms,expected_tokens,acceptance_terms,output_dir
+1,1000000,spec0,false,new_run,0.122170380,0.002490250,58,58,1.515262443,1.515262443,1.515262443,0.000000000,1.000000000,1,reticle1_sram1000000_prefetch_false_spec0
+1,1000000,spec0,true,copied_from_reticle_sram_data,0.090004358,0.002148938,6,25,1.089473230,1.089473230,1.089473230,0.000000000,1.000000000,1,reticle1_sram1000000_prefetch_true_spec0
+2,1000000,spec0,false,new_run,0.077000630,0.001512500,58,58,0.958595693,0.958595693,0.958595693,0.000000000,1.000000000,1,reticle2_sram1000000_prefetch_false_spec0
+2,1000000,spec0,true,copied_from_reticle_sram_data,0.046183655,0.001129219,2,14,0.557036705,0.557036705,0.557036705,0.000000000,1.000000000,1,reticle2_sram1000000_prefetch_true_spec0
+4,1000000,spec0,false,new_run,0.055379005,0.001052500,58,53,0.692233068,0.692233068,0.692233068,0.000000000,1.000000000,1,reticle4_sram1000000_prefetch_false_spec0
+4,1000000,spec0,true,copied_from_reticle_sram_data,0.031714086,0.000686740,2,1,0.384598145,0.384598145,0.384598145,0.000000000,1.000000000,1,reticle4_sram1000000_prefetch_true_spec0
