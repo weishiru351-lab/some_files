@@ -1,0 +1,4 @@
+﻿op_index,op_name,transform_start_ms,dram_start_ms,dram_end_ms,compute_start_ms,op_end_ms
+0,LPU_expert0_up_linear,0.0,0.0,0.00034324,0.0,0.00034324
+1,LPU_expert0_silu_mul,0.00034324,0.0,0.00034324,0.0005389899999999999,0.0005869899999999999
+2,LPU_expert0_down_linear,0.0005869899999999999,0.00034324,0.00051486,0.0005869899999999999,0.00102849
